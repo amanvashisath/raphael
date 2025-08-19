@@ -59,10 +59,10 @@ const App = () => {
   return (
     <div className="bg-white text-gray-800 font-sans antialiased">
       {/* Header */}
-      <header className="fixed top-0 left-0 right-0 z-50 bg-white bg-opacity-90 backdrop-blur-sm shadow-md">
+     <header className="fixed top-0 left-0 right-0 z-50 bg-white bg-opacity-90 backdrop-blur-sm shadow-md">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <h1 className="text-2xl font-bold text-gray-900">
-            <a href="#home">Raphael</a>
+            <a href="#home"> House of Raphael</a>
           </h1>
           <nav className="hidden md:flex space-x-6 text-sm font-medium">
             {navItems.map((item) => (
